@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+form {
+    margin-left: 40px;
+    height: auto;
+    padding: 5px;
+}
+
+form input {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: darkcyan;
+    padding: 6px;
+    cursor: pointer;
+}
+
+ul li {
+    margin-left: 10px;
+}
