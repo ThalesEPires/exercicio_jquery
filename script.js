@@ -7,7 +7,7 @@ $(document).ready(function() {
         $(`<li>${nomeTarefa}</li>`).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ul');
         $('li').click(function () {
-            $("li").css("text-decoration", "line-through");
+            $(this).addClass("riscado");
         });
         $('#nome-tarefa').val("");
     })

@@ -39,3 +39,7 @@ button {
 ul li {
     margin-left: 10px;
 }
+
+.riscado {
+    text-decoration: line-through;
+}
